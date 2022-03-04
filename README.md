@@ -1,7 +1,7 @@
 # Purpose
 
 - Defines common regexp patterns
-
+- Keep all important definitions here 
 ## how to use 
 ```js
 const { git, node_modules } = require("define_me")
