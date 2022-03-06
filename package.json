@@ -1,6 +1,6 @@
 {
     "name": "define_me",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "common regexp patterns",
     "main": "index.js",
     "scripts": {
