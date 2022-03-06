@@ -47,11 +47,9 @@ let trueThis = define_me.containsThis("digital", define_mehhmmss)
  * @returns {any}
  */
 function containsThis(string, regexp) {
-    string = string.toLowerCase()
     if (startsWithString(string)) {
         string = capitalizeFirstLetter(string)
     }
-    console.log("string", string)
     let check = new RegExp(regexp)
     return check.test(string)
 }
