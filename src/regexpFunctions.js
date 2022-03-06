@@ -17,9 +17,12 @@ function capitalizeFirstLetter(string) {
 }
 
 function startsWithString(string) {
-    let regexp = new RegExp(/^[A-Z]/i)
-
-    return regexp.test(string)
+    let regexp = new RegExp(/^[A-Z]/)
+    let regexp2 = new RegExp(/^[a-z]/)
+    let firstCondition = regexp.test(string)
+    let secondCondition = regexp2.test(string)
+    let startsWithLetter = firstCondition && secondCondition
+    return startsWithLetter
 }
 
 // #TODO: make sure the string function only accepts Jan, Feb....
