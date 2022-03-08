@@ -8,9 +8,18 @@
  ``` const define_me =  require('define_me')```
 
 ## If utilizing in html...: 
-```<script src="https://cdn.jsdelivr.net/npm/define_me/dist/index.js"></script> ``` 
- ``` const output =  define_me.method(parameter)```
+```html
+<script src="https://cdn.jsdelivr.net/npm/define_me@1.1.0/dist/index.js"></script> 
+  <script>
+        $(() => {
 
+            let getThis = define_me.containsThis(".git", define_me.git);
+            console.log("🚀 ~ file: playground.js ~ line 4 ~ getThis", getThis)
+            let checkDate = define_me.containsThis("March 20 2012", define_me.stringDate)
+            console.log("🚀 ~ file: playground.js ~ line 6 ~ checkDate", checkDate)
+        })
+    </script>
+    ``` 
 ## Functions
 
 <dl>
@@ -27,10 +36,10 @@
 **Date**: 2022-03-06  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| string | <code>any</code> | 
-| regexp | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| string | <code>any</code> |
+| regexp | <code>any</code> |
 
 **Example**  
 ```js
@@ -44,10 +53,10 @@ console.log("🚀 ~ file: playground.js ~ line 4 ~ getThis", getThis)
 **Date**: 2022-03-07  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| string | <code>any</code> | 
-| regexp | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| string | <code>any</code> |
+| regexp | <code>any</code> |
 
 **Example**  
 ```js
