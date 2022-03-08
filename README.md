@@ -1,18 +1,15 @@
-# Purpose: 
-
-- Defines common regexp patterns
-- Keep all important definitions here 
-
-
-
 # define_me
+[define_me - start here](https://zen-out.github.io/packages/define_me)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![NPM Downloads](https://img.shields.io/npm/dw/define_me)
 ## Instructions: 
 ```npm install define_me ``` 
  ``` const define_me =  require('define_me')```
 
-
+## If utilizing in html...: 
+```<script src="https://cdn.jsdelivr.net/npm/define_me/dist/index.js"></script> ``` 
+ ``` const output =  define_me.method(parameter)```
 
 ## Functions
 
@@ -30,10 +27,10 @@
 **Date**: 2022-03-06  
 **Author**: zen-out  
 
-| Param  | Type             |
-|--------|------------------|
-| string | <code>any</code> |
-| regexp | <code>any</code> |
+| Param | Type |
+| --- | --- |
+| string | <code>any</code> | 
+| regexp | <code>any</code> | 
 
 **Example**  
 ```js
@@ -47,10 +44,10 @@ console.log("🚀 ~ file: playground.js ~ line 4 ~ getThis", getThis)
 **Date**: 2022-03-07  
 **Author**: zen-out  
 
-| Param  | Type             |
-|--------|------------------|
-| string | <code>any</code> |
-| regexp | <code>any</code> |
+| Param | Type |
+| --- | --- |
+| string | <code>any</code> | 
+| regexp | <code>any</code> | 
 
 **Example**  
 ```js
